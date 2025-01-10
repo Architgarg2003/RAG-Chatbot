@@ -1,6 +1,3 @@
-# setup_rag.py 
-# setup_rag.py
-
 from langchain import hub
 from langchain_groq import ChatGroq
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -10,6 +7,10 @@ from langgraph.graph import StateGraph, START
 from typing_extensions import List, TypedDict
 import getpass
 import os
+from dotenv import load_dotenv
+
+4# Load environment variables from .env file
+load_dotenv()
 
 # Get the API key for Groq
 if not os.environ.get("GROQ_API_KEY"):
