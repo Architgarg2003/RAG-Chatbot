@@ -1,0 +1,4 @@
+question,answer
+"What is Task Decomposition?","Task decomposition is the process of breaking down a complex task into smaller, manageable steps."
+"What is Chain of Thought?","Chain of Thought (CoT) is a prompting technique that enhances model performance on complex tasks."
+"What is Tree of Thoughts?","Tree of Thoughts extends CoT by exploring multiple reasoning possibilities at each step."
