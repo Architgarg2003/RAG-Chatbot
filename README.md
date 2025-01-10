@@ -16,7 +16,7 @@ A Retrieval-Augmented Generation (RAG) Chatbot built with Streamlit, utilizing G
 
  ```bash
  git clone https://github.com/yourusername/RAG-Chatbot.git
- cd rag-chatbot
+ cd RAG-Chatbot
  ```
 
 2. Create a virtual environment (optional but recommended):
